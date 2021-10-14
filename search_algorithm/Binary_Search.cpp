@@ -19,11 +19,11 @@ int binary_serach(int *p_arr,int target,int left,int right) {
 
 }
 
-//int main() {
-//	int target = 37;
-//	std::vector<int> arr = { 5,13,92,56,19,21,37,80,88,64,75 };
-//	sort(arr.begin(), arr.end());
-//	int add = binary_serach(&arr[0], target,0, int(arr.size()-1));
-//	std::cout << add << std::endl;
-//	return 1;
-//}
+int main() {
+	int target = 37;
+	std::vector<int> arr = { 5,13,92,56,19,21,37,80,88,64,75 };
+	sort(arr.begin(), arr.end());
+	int add = binary_serach(&arr[0], target,0, int(arr.size()-1));
+	std::cout << add << std::endl;
+	return 1;
+}
